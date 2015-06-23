@@ -5,7 +5,7 @@ if (Meteor.isClient) {
 
     Template.body.helpers({
         activities: function () {
-            return Activities.find({});
+            return Activities.find({}, {sort: {createdAt: -1}});
         }
     });
 

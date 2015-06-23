@@ -1,10 +1,10 @@
 if (Meteor.isClient) {
   // This code only runs on the client
   Template.body.helpers({
-    tasks: [
-      { text: "This is task 1" },
-      { text: "This is task 2" },
-      { text: "This is task 3" }
+    activities: [
+      { title: "See a show at UCB." },
+      { title: "Go to dinner at that cool bar in WeHo you walked past." },
+      { title: "Attend a random meetup." }
     ]
   });
 }

@@ -8,14 +8,18 @@
         <h1>You should</h1>
     </header>
 
+    <!-- List all activities -->
     <ul>
-        {{#each tasks}}
-            {{> task}}
+        {{#each activities}}
+            {{> activity}}
         {{/each}}
     </ul>
 </div>
 </body>
 
-<template name="task">
-    <li>{{text}}</li>
+<!-- TEMPLATES -->
+
+<!-- Activity Template -->
+<template name="activity">
+    <li>{{title}}</li>
 </template>

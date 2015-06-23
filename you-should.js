@@ -5,7 +5,19 @@ if (Meteor.isClient) {
 
     Template.body.helpers({
         activities: function () {
-            return Activities.find({}, {sort: {createdAt: -1}});
+            // Only retreive non-hidden tasks.
+            if (Session.get("hideCompleted")) {
+                return Activities.find({checked: {$ne: true}}, {sort: {createdAt: -1}});
+            }
+
+            // None hidden, show 'em all.
+            else {
+                return Activities.find({}, {sort: {createdAt: -1}});
+            }
+        },
+
+        incompleteCount: function() {
+            return Activities.find({checked: {$ne: true}}).count();
         }
     });
 
@@ -25,6 +37,25 @@ if (Meteor.isClient) {
 
             //Prevent default form submit
             return False;
+        },
+
+        "change .hide-completed input": function(event) {
+            Session.set("hideCompleted", event.target.checked);
         }
-    })
+    });
+
+    Template.activity.events({
+        //Respond to any user interactions with an activity.
+
+        //Checkmark toggle button.
+        "click .toggle-checked": function () {
+            //Set the property to the opposite of it's current value.
+            Activities.update(this._id, {$set: {checked: ! this.checked}});
+        },
+
+        //Delete "X" button.
+        "click .delete": function () {
+            Activities.remove(this._id);
+        }
+    });
 }

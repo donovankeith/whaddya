@@ -5,8 +5,13 @@
 <body>
 <div class="container">
     <header>
-        <h1>You should</h1>
+        <h1>You should do one of {{incompleteCount}} activities.</h1>
+        <label class="hide-completed">
+            <input type="checkbox" checked="{{hideCompleted}}" />
+            Hide Completed Activities
+        </label>
 
+        <!-- User Input -->
         <form class="new-activity">
             <input type="text" name="title" placeholder="Type to add new activities." />
         </form>

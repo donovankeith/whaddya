@@ -1,14 +1,21 @@
 <head>
-  <title>What Should We Do Tonight?</title>
+    <title>What Should We Do Tonight?</title>
 </head>
 
 <body>
-  <h1>What should we do tonight?</h1>
+<div class="container">
+    <header>
+        <h1>You should</h1>
+    </header>
 
-  {{> hello}}
+    <ul>
+        {{#each tasks}}
+            {{> task}}
+        {{/each}}
+    </ul>
+</div>
 </body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+<template name="task">
+    <li>{{text}}</li>
 </template>

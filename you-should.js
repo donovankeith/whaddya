@@ -26,17 +26,20 @@ if (Meteor.isClient) {
             //This function is called when the "new activity" form is completed.
 
             var title = event.target.title.value;
+            var description = event.target.description.value;
 
             Activities.insert({
                 title: title,
+                description: description,
                 createdAt: new Date() //Current time
             });
 
             //Clear form
             event.target.title.value = "";
+            event.target.description.value = "";
 
             //Prevent default form submit
-            return False;
+            return false;
         },
 
         "change .hide-completed input": function(event) {

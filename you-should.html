@@ -13,7 +13,9 @@
 
         <!-- User Input -->
         <form class="new-activity">
-            <input type="text" name="title" placeholder="Type to add new activities." />
+            <input type="text" name="title" placeholder="ActivityName" />
+            <input type="text" name="description" placeholder="ActivityDescription" />
+            <button class="submit">submit</button>
         </form>
     </header>
 
@@ -36,5 +38,6 @@
         <input type="checkbox" checked="{{checked}}" class="toggle-checked" />
 
         <span class="activity">{{title}}</span>
+        <div class="activity-description">{{description}}</div>
     </li>
 </template>

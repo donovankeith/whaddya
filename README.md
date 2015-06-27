@@ -15,3 +15,8 @@ YouShould is a simple WebApp that answers the daily dilemma: "What should we do 
 - Add `Activities` to a giant list of things you can do.
 - Check off completed activities.
 - Show only those activities you actually want to do.
+
+## Ideas
+
+- Open a new tab when you click @Rita
+- Time-based selection

@@ -3,7 +3,7 @@ var activitiesData = [
         title: 'See a Show at UCB',
         url: 'https://franklin.ucbtheatre.com/',
         icon: 'mask_filled.png',
-        description: '',
+        description: ''
     },
     {
         title: 'Watch a Documentary on Netflix',
@@ -21,7 +21,7 @@ var activitiesData = [
         title: 'Go for a hike',
         url: 'https://www.google.com/webhp?hl=en#hl=en&q=hiking+trails+near+me&rflfq=1&tbm=lcl',
         icon: 'compass_filled.png',
-        description: '',
+        description: ''
     },
     {
         title: 'Ride Your Bike',
@@ -38,6 +38,12 @@ var activitiesData = [
     {
         title: 'Grab a Drink with a Friend',
         url: 'http://www.yelp.com/search?find_desc=happy+hour&find_loc=Los+Angeles%2C+CA',
+        icon: 'drink_filled.png',
+        description: ''
+    },
+    {
+        title: 'Go to Late Night Happy Hour at MessHall',
+        url: 'http://www.yelp.com/biz/messhall-los-angeles-2',
         icon: 'drink_filled.png',
         description: ''
     },

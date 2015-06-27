@@ -10,6 +10,7 @@ I dunno, whaddya wanna do?
 - CSS
 - JavaScript
 - Bootstrap
+- Icons by TheNounProject
 
 ## Features
 
@@ -19,9 +20,9 @@ I dunno, whaddya wanna do?
 
 ## Ideas
 
-- [ ] Add a Contact Button
-- [ ] Add a Report a Bug Button
-- [ ] Add a Report an Idea Button
+- [/] Add a Contact Button
+- [X] Add a Report a Bug Button
+- [X] Add a Report an Idea Button
 - [ ] Add About Page
 - [ ] Improved stying
     - [ ] Solid color tiles

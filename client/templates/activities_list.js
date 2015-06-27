@@ -2,57 +2,57 @@ var activitiesData = [
     {
         title: 'See a Show at UCB',
         url: 'https://franklin.ucbtheatre.com/',
-        icon: 'mask_filled.png',
+        icon: 'noun_theater_501.png',
     },
     {
         title: 'Watch a Documentary on Netflix',
         url: 'http://www.netflix.com/browse/genre/6839',
-        icon: 'movie_filled.png',
+        icon: 'noun_television_15555.png',
     },
     {
         title: 'Learn Meteor.js',
         url: 'http://themeteorbook.com',
-        icon: 'book_filled.png',
+        icon: 'noun_mortar-board_32463.png',
     },
     {
         title: 'Go for a hike',
         url: 'https://www.google.com/webhp?hl=en#hl=en&q=hiking+trails+near+me&rflfq=1&tbm=lcl',
-        icon: 'compass_filled.png',
+        icon: 'noun_boot_35776.png',
     },
     {
         title: 'Ride Your Bike',
         url: 'http://www.traillink.com/trailsearch.aspx?zipcode=90027',
-        icon: 'bicycle_filled.png',
+        icon: 'noun_bike_143283.png',
     },
     {
         title: 'Go for a Walk',
         url: 'http://www.wikihow.com/Take-a-Walk',
-        icon: 'dog_filled.png',
+        icon: 'noun_walk_3516.png',
     },
     {
         title: 'Grab a Drink with a Friend',
         url: 'http://www.yelp.com/search?find_desc=happy+hour&find_loc=Los+Angeles%2C+CA',
-        icon: 'drink_filled.png',
+        icon: 'noun_bar_21.png',
     },
     {
         title: 'Go to Late Night Happy Hour at MessHall',
         url: 'http://www.yelp.com/biz/messhall-los-angeles-2',
-        icon: 'drink_filled.png',
+        icon: 'noun_cocktail-calendar_62322.png',
     },
     {
         title: 'Cook a Meal',
         url: 'http://www.chow.com/',
-        icon: 'chef_filled.png',
+        icon: 'noun_chef-hat_32675.png',
     },
     {
         title: 'Grab Coffee with a Friend',
         url: 'http://www.yelp.com/search?find_desc=happy+hour&find_loc=Los+Angeles%2C+CA#find_desc=Coffee+%26+Tea',
-        icon: 'coffee_filled.png',
+        icon: 'noun_coffee_4020.png',
     },
     {
         title: 'Workout',
         url: 'https://www.youtube.com/watch?v=zwSRF3QkG7Q',
-        icon: 'exercise_filled.png',
+        icon: 'noun_dumbbell_22292.png',
     }
 ];
 

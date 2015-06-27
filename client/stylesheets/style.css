@@ -1,0 +1,34 @@
+/*
+Color Scheme from Kuler
+Source: https://color.adobe.com/Flat-design-colors-1-color-theme-3044245/
+*/
+
+.color-1 {
+    background-color: #334D5C;
+}
+
+.color-2 {
+    background-color: #45B29D;
+}
+
+.color-3 {
+    background-color: #EFC94C;
+}
+
+.color-4 {
+    background-color: #E27A3F;
+}
+
+.color-5 {
+    background-color: #DF5A49;
+}
+
+.activity-icon {
+    margin: 0 auto;
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+body {
+    background-color: #EFC94C;
+}

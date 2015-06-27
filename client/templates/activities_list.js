@@ -2,38 +2,38 @@ var activitiesData = [
     {
         title: 'See a Show at UCB',
         url: 'https://franklin.ucbtheatre.com/',
-        icon: 'balloon.png',
-        description: 'descriptionGoesHere',
+        icon: 'mask_filled.png',
+        description: '',
     },
     {
         title: 'Watch a Documentary on Netflix',
         url: 'http://www.netflix.com/browse/genre/6839',
-        icon: 'bicycle.png',
-        description: 'descriptionGoesHere'
+        icon: 'movie_filled.png',
+        description: ''
     },
     {
         title: 'Learn Meteor.js',
         url: 'http://themeteorbook.com',
-        icon: 'chat.png',
-        description: 'descriptionGoesHere'
+        icon: 'book_filled.png',
+        description: ''
     },
     {
-        title: 'See a show at UCB',
-        url: 'https://franklin.ucbtheatre.com/',
-        icon: 'combat.png',
-        description: 'descriptionGoesHere',
+        title: 'Go for a hike',
+        url: 'https://www.google.com/webhp?hl=en#hl=en&q=hiking+trails+near+me&rflfq=1&tbm=lcl',
+        icon: 'compass_filled.png',
+        description: '',
     },
     {
-        title: 'Watch a documentary on Netflix',
+        title: 'Ride Your Bike',
         url: 'http://www.netflix.com/browse/genre/6839',
-        icon: 'dog.png',
-        description: 'descriptionGoesHere'
+        icon: 'bicycle_filled.png',
+        description: ''
     },
     {
         title: 'The Meteor Book',
         url: 'http://themeteorbook.com',
-        icon: 'cupcake.png',
-        description: 'descriptionGoesHere'
+        icon: 'book_filled.png',
+        description: ''
     }
 ];
 

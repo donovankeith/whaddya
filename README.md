@@ -19,10 +19,20 @@ I dunno, whaddya wanna do?
 
 ## Ideas
 
+- [ ] Add a Contact Button
+- [ ] Add a Report a Bug Button
+- [ ] Add a Report an Idea Button
+- [ ] Add About Page
+- [ ] Improved stying
+    - [ ] Solid color tiles
+    - [ ] Solid color icons
+    - [ ] Larger icons
+    - [ ] Color change on hover
 - [ ] Open a new tab when you click @Rita
-- [ ] Time-based selection
+- [ ] Time-based selection @Donovan
 - [ ] Duration-based filtering @JP
 - [ ] Location-based searching @Ilana
+- [ ] Tags & Filtering @Donovan
 
 ## Known Issues
 

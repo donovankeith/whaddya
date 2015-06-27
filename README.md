@@ -1,5 +1,6 @@
-# you-should
-YouShould is a simple WebApp that answers the daily dilemma: "What should we do tonight?"
+# whaddya
+Whadya is a simple WebApp that answers the perennial question:
+I dunno, whaddya wanna do?
 
 
 ## Technology
@@ -18,9 +19,10 @@ YouShould is a simple WebApp that answers the daily dilemma: "What should we do 
 
 ## Ideas
 
-- Open a new tab when you click @Rita
-- Time-based selection
-
+- [ ] Open a new tab when you click @Rita
+- [ ] Time-based selection
+- [ ] Duration-based filtering @JP
+- [ ] Location-based searching @Ilana
 
 ## Known Issues
 

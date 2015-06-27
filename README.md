@@ -20,3 +20,8 @@ YouShould is a simple WebApp that answers the daily dilemma: "What should we do 
 
 - Open a new tab when you click @Rita
 - Time-based selection
+
+
+## Known Issues
+
+- Late Friday night (2am), registers as Saturday morning.

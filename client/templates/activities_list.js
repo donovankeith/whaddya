@@ -52,7 +52,12 @@ var activitiesData = [
     {
         title: 'Workout',
         url: 'https://www.youtube.com/watch?v=zwSRF3QkG7Q',
-        icon: 'noun_dumbbell_22292.png',
+        icon: 'noun_dumbbell_22292.png'
+    },
+    {
+        title: 'Improve Whaddya App',
+        url: 'http://www.WhaddyaWana.com',
+        icon: 'noun_programming_143945.png'
     }
 ];
 

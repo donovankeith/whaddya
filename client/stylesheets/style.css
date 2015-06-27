@@ -25,10 +25,32 @@ Source: https://color.adobe.com/Flat-design-colors-1-color-theme-3044245/
 
 .activity-icon {
     margin: 0 auto;
-    -webkit-filter: brightness(0) invert(1);
-    filter: brightness(0) invert(1);
 }
 
-body {
-    background-color: #EFC94C;
+.activity {
+    /*background: inherit;*/
+    transition: 0s;
+}
+
+.activity:hover {
+    background: white;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+#random-bg {
+    background-color: #ababab;/*default*/
+    transition: background-color 5s ease; /* future-proof */
+    -webkit-transition: background-color 5s ease;
+    -moz-transition: background-color 5s ease;
+    -o-transition: background-color 5s ease;
+    -ms-transition: background-color 5s ease;/* IE10+ only */
+}
+
+li {
+    background: white;
+    padding: 4px;
+    padding-right: 6px;
+    margin-left: 4px;
+    border-radius: 4px;
 }

@@ -26,9 +26,9 @@ I dunno, whaddya wanna do?
 - [ ] Add About Page
 - [ ] Improved stying
     - [ ] Solid color tiles
-    - [ ] Solid color icons
-    - [ ] Larger icons
-    - [ ] Color change on hover
+    - [X] Solid color icons
+    - [X] Larger icons
+    - [X] Color change on hover
 - [ ] Open a new tab when you click @Rita
 - [ ] Time-based selection @Donovan
 - [ ] Duration-based filtering @JP

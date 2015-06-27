@@ -1,12 +1,8 @@
 <template name="activity">
-    <a href="{{url}}" class="activity">
-        <div class="panel panel-primary text-center">
-            <div class="panel-body color-2">
-                <img src="images/icons/{{icon}}" class="activity-icon img-responsive hidden-xs">
-            </div>
-            <div class="panel-footer">
-                <h3 class="panel-title">{{title}}</h3>
-            </div>
+    <a href="{{url}}" class="activity thumbnail text-center">
+        <img src="images/icons/{{icon}}" class="activity-icon img-responsive hidden-xs">
+        <div class="caption">
+            <h4>{{title}}</h4>
         </div>
     </a>
 </template>

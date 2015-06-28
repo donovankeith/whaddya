@@ -23,6 +23,7 @@ I dunno, whaddya wanna do?
 - [/] Add a Contact Button
 - [X] Add a Report a Bug Button
 - [X] Add a Report an Idea Button
+- !![ ] Time-based filtering @Donovan
 - [ ] Add About Page
 - [ ] Improved styling
     - [ ] Solid color tiles
@@ -32,7 +33,6 @@ I dunno, whaddya wanna do?
     - [ ] 5 wide layout w/ smaller icons
     - [ ] Custom Phone Layout
 - [ ] Open a new tab when you click @Rita
-- !![ ] Time-based filtering @Donovan
 - [ ] Duration-based filtering @JP
 - [ ] Location-based searching @Ilana
 - [ ] Tags & Filtering @Donovan
@@ -44,6 +44,7 @@ I dunno, whaddya wanna do?
     - [ ] Check-in with a friend you haven't seen in a while.
 - [ ] Equal # of male/female icons.
 - [ ] Move to a BitBucket private Repo
+- [ ] Celebratory sound once you've chosen. Reiteration of choice, then countdown before going to linked site?
 
 ## Known Issues
 

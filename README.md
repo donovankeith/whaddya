@@ -45,6 +45,7 @@ I dunno, whaddya wanna do?
 - [ ] Equal # of male/female icons.
 - [ ] Move to a BitBucket private Repo
 - [ ] Celebratory sound once you've chosen. Reiteration of choice, then countdown before going to linked site?
+- [ ] 2 people go to a link and so no to a series of stuff until a decision is made. Can put in a day/time for the event.
 
 ## Known Issues
 

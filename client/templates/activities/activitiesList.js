@@ -20,13 +20,14 @@ function shuffle(array) {
     return array;
 }
 
-Template.activities_list.helpers(
+Template.activitiesList.helpers(
     {
         // Return a randomly sorted list of activities.
         // activities: shuffle(activitiesData)
 
         activities: function() {
-            return Activities.find();
+            //Retrieve Activities database cursor, convert it to an array of data, then shuffle that array.
+            return shuffle(Activities.find().fetch());
         }
     }
 );

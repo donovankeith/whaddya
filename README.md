@@ -43,6 +43,7 @@ I dunno, whaddya wanna do?
     - [ ] Xfer money to savings.
     - [ ] Check-in with a friend you haven't seen in a while.
 - [ ] Equal # of male/female icons.
+- [ ] Move to a BitBucket private Repo
 
 ## Known Issues
 

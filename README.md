@@ -9,7 +9,7 @@ I dunno, whaddya wanna do?
 - HTML
 - CSS
 - JavaScript
-- Bootstrap
+- BootstrapAd
 - Icons by TheNounProject
 
 ## Features
@@ -32,12 +32,17 @@ I dunno, whaddya wanna do?
     - [ ] 5 wide layout w/ smaller icons
     - [ ] Custom Phone Layout
 - [ ] Open a new tab when you click @Rita
-- [ ] Time-based selection @Donovan
+- !![ ] Time-based filtering @Donovan
 - [ ] Duration-based filtering @JP
 - [ ] Location-based searching @Ilana
 - [ ] Tags & Filtering @Donovan
 - [ ] Counter indicating how often user has done a given thing. @Donovan
 - [ ] Countdown, or some other system to give user a hard-nudge to actually start doing the thing they've picked.
+- [ ] Time-of-month based suggestions.
+    - [ ] Pay your rent.
+    - [ ] Xfer money to savings.
+    - [ ] Check-in with a friend you haven't seen in a while.
+- [ ] Equal # of male/female icons.
 
 ## Known Issues
 

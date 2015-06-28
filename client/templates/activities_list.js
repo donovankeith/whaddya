@@ -68,6 +68,21 @@ var activitiesData = [
         title: 'Write in your Journal',
         url: 'http://writingexercises.co.uk/subjectgenerator.php',
         icon: 'noun_notebook_11195.png'
+    },
+    {
+        title: 'Eat out',
+        url: 'http://www.yelp.com/search?find_desc=Restaurants&find_loc=Los+Angeles%2C+CA&ns=1#start=0&attrs=RestaurantsPriceRange2.1,RestaurantsPriceRange2.2',
+        icon: 'noun_restaurant_37522.png'
+    },
+    {
+        title: 'Order in',
+        url: 'http://www.yelp.com/search?find_desc=Restaurants&find_loc=Los+Angeles%2C+CA&ns=1#find_loc=Los+Angeles,+CA+90027&start=0&attrs=PlatformDelivery,RestaurantsPriceRange2.1,RestaurantsPriceRange2.2&ytp_st=delivery&ytp_loc=NK49yCWjtCcAzrjdc6nZuw',
+        icon: 'noun_takeout_80606.png'
+    },
+    {
+        title: 'Go grocery shopping',
+        url: 'https://www.google.com/maps/search/grocery+stores/@34.1257844,-118.2973315,13z/data=!3m1!4b1',
+        icon: 'noun_shopping-cart_11952.png'
     }
 
 ];

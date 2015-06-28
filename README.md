@@ -24,11 +24,13 @@ I dunno, whaddya wanna do?
 - [X] Add a Report a Bug Button
 - [X] Add a Report an Idea Button
 - [ ] Add About Page
-- [ ] Improved stying
+- [ ] Improved styling
     - [ ] Solid color tiles
     - [X] Solid color icons
     - [X] Larger icons
     - [X] Color change on hover
+    - [ ] 5 wide layout w/ smaller icons
+    - [ ] Custom Phone Layout
 - [ ] Open a new tab when you click @Rita
 - [ ] Time-based selection @Donovan
 - [ ] Duration-based filtering @JP

@@ -34,6 +34,8 @@ I dunno, whaddya wanna do?
 - [ ] Duration-based filtering @JP
 - [ ] Location-based searching @Ilana
 - [ ] Tags & Filtering @Donovan
+- [ ] Counter indicating how often user has done a given thing. @Donovan
+- [ ] Countdown, or some other system to give user a hard-nudge to actually start doing the thing they've picked.
 
 ## Known Issues
 

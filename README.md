@@ -46,4 +46,4 @@ I dunno, whaddya wanna do?
 
 ## Known Issues
 
-- Late Friday night (2am), registers as Saturday morning.
+- [ ] Late Friday night (2am), registers as Saturday morning.

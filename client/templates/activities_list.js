@@ -83,6 +83,11 @@ var activitiesData = [
         title: 'Go grocery shopping',
         url: 'https://www.google.com/maps/search/grocery+stores/@34.1257844,-118.2973315,13z/data=!3m1!4b1',
         icon: 'noun_shopping-cart_11952.png'
+    },
+    {
+        title: 'Go to sleep',
+        url: 'http://www.wikihow.com/Count-Sheep',
+        icon: 'noun_hotel_41621.png'
     }
 
 ];

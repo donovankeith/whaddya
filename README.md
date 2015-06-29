@@ -20,10 +20,11 @@ I dunno, whaddya wanna do?
 
 ## Ideas
 
+- !!![ ] Time-based filtering @Donovan
 - [/] Add a Contact Button
 - [X] Add a Report a Bug Button
 - [X] Add a Report an Idea Button
-- !![ ] Time-based filtering @Donovan
+- [X] Add simple loading spinner
 - [ ] Add About Page
 - [ ] Improved styling
     - [ ] Solid color tiles
@@ -46,6 +47,7 @@ I dunno, whaddya wanna do?
 - [ ] Move to a BitBucket private Repo
 - [ ] Celebratory sound once you've chosen. Reiteration of choice, then countdown before going to linked site?
 - [ ] 2 people go to a link and so no to a series of stuff until a decision is made. Can put in a day/time for the event.
+- [X] Improve 404, add suggested pages to visit.
 
 ## Known Issues
 

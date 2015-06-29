@@ -1,7 +1,9 @@
 <template name="activitiesList">
-    {{#each activities}}
-        <div class="col-sm-3">
+    <div class="row">
+        {{#each activities}}
+            <div class="col-sm-3">
                 {{> activity}}
-        </div>
-    {{/each}}
+            </div>
+        {{/each}}
+    </div>
 </template>

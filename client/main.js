@@ -7,7 +7,7 @@ function randomColor(){
         '#DF5A49'
     ]
     i = Math.floor(Math.random() * random_colors.length);
-    jQuery('#random-bg').css('background-color',random_colors[i]);
+    jQuery('body').css('background-color',random_colors[i]);
 }
 
 jQuery(document).ready(function(){

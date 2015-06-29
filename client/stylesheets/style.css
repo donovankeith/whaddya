@@ -27,7 +27,7 @@ Source: https://color.adobe.com/Flat-design-colors-1-color-theme-3044245/
     margin: 0 auto;
 }
 
-.activity {
+.activity .activity-page {
     /*background: inherit;*/
     transition: 0s;
     min-height: 255px;
@@ -39,7 +39,7 @@ Source: https://color.adobe.com/Flat-design-colors-1-color-theme-3044245/
     filter: invert(1);
 }
 
-#random-bg {
+body {
     background-color: #ababab;/*default*/
     transition: background-color 5s ease; /* future-proof */
     -webkit-transition: background-color 5s ease;
@@ -64,7 +64,10 @@ li {
     overflow: hidden;
 }
 
-[class*="col-"]{
-    margin-bottom: -99999px;
-    padding-bottom: 99999px;
+.more-info{
+    background: white;
+}
+
+.spinner-container{
+    position: relative;
 }

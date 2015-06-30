@@ -20,6 +20,7 @@ I dunno, whaddya wanna do?
 
 ## Ideas
 
+- !!![ ] Submission Form
 - !!![ ] Time-based filtering @Donovan
 - [/] Add a Contact Button
 - [X] Add a Report a Bug Button

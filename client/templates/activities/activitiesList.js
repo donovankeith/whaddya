@@ -27,7 +27,15 @@ Template.activitiesList.helpers(
 
         activities: function() {
             //Retrieve Activities database cursor, convert it to an array of data, then shuffle that array.
-            return shuffle(Activities.find().fetch());
+            all = shuffle(Activities.find().fetch());
+            chunks = [];
+            size = 4
+            while (all.length > size) {
+                chunks.push({ row: all.slice(0, size)});
+                all = all.slice(size);
+            }
+            chunks.push({row: all});
+            return chunks;
         }
     }
 );

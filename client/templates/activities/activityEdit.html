@@ -1,0 +1,25 @@
+<template name="activityEdit">
+    <form class="main form page">
+        <div class="form-group">
+            <label class="control-label" for="title">Activity Title</label>
+            <div class="controls">
+                <input name="title" id="title" type="text" value="{{title}}" placeholder="Your activity as an active sentence" class="form-control"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="url">Next Step URL</label>
+            <div class="controls">
+                <input name="url" id="url" type="text" value="{{url}}" placeholder="URL for the Next Step" class="form-control"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="icon">Icon<Name></Name></label>
+            <div class="controls">
+                <input name="icon" id="icon" type="text" value="{{icon}}" placeholder="IconName.png" class="form-control"/>
+            </div>
+        </div>
+        <input type="submit" value="Submit" class="btn btn-primary submit"/>
+        <hr/>
+        <a class="btn btn-danger delete" href="#">Delete activity</a>
+    </form>
+</template>

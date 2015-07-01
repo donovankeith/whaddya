@@ -1,9 +1,23 @@
+<!-- Inspired by
+http://stackoverflow.com/questions/18844765/populating-bootstrap-grid-with-dynamic-data-using-each-in-meteor/18858402#18858402
+-->
+
 <template name="activitiesList">
-    <div class="row">
         {{#each activities}}
-            <div class="col-md-2 col-sm-3 col-xs-4">
-                {{> activity}}
-            </div>
+            {{> activityRow }}
         {{/each}}
+</template>
+
+<template name="activityRow">
+    <div class="row">
+        {{#each row }}
+            {{> activityItem}}
+        {{/each}}
+    </div>
+</template>
+
+<template name="activityItem">
+    <div class="col-xs-3">
+        {{> activity}}
     </div>
 </template>

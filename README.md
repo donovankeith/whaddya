@@ -20,7 +20,8 @@ I dunno, whaddya wanna do?
 
 ## Ideas
 
-- !!![ ] Submission Form
+- [X] Submission Form
+- [X] Edit Form
 - !!![ ] Time-based filtering @Donovan
 - [/] Add a Contact Button
 - [X] Add a Report a Bug Button
@@ -49,6 +50,12 @@ I dunno, whaddya wanna do?
 - [ ] Celebratory sound once you've chosen. Reiteration of choice, then countdown before going to linked site?
 - [ ] 2 people go to a link and so no to a series of stuff until a decision is made. Can put in a day/time for the event.
 - [X] Improve 404, add suggested pages to visit.
+- [ ] Different sub-domains
+    - [ ] http://www.whaddyawanna.com/cook
+        - Bookmark recipes that you're interested in trying later.
+    - [ ] http://www.whaddyawanna.com/do
+    - [ ] http://www.whaddyawanna.com/eat
+    - [ ] http://www.whaddyawanna.com/coo
 
 ## Known Issues
 

@@ -28,6 +28,7 @@ Template.activitiesList.helpers(
         activities: function() {
             //Retrieve Activities database cursor, convert it to an array of data, then shuffle that array.
             all = shuffle(Activities.find().fetch());
+
             chunks = [];
             size = 4
             while (all.length > size) {

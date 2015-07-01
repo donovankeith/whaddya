@@ -3,14 +3,14 @@ http://stackoverflow.com/questions/18844765/populating-bootstrap-grid-with-dynam
 -->
 
 <template name="activitiesList">
-        {{#each activities}}
-            {{> activityRow }}
-        {{/each}}
+    {{#each activities}}
+        {{> activityRow }}
+    {{/each}}
 </template>
 
 <template name="activityRow">
     <div class="row">
-        {{#each row }}
+        {{#each row}}
             {{> activityItem}}
         {{/each}}
     </div>

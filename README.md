@@ -56,6 +56,22 @@ I dunno, whaddya wanna do?
     - [ ] http://www.whaddyawanna.com/do
     - [ ] http://www.whaddyawanna.com/eat
     - [ ] http://www.whaddyawanna.com/coo
+- [ ] Log choices based on:
+    - [ ] Day of week
+    - [ ] Time of day
+    - [ ] Sunrise/Sunset
+    - [ ] Weather
+    - [ ] Location
+        - [ ] Work / Home / Gym / In Transit
+    - [ ] Activity
+    - [ ] Device Type
+    - [ ] User Characteristics?
+        - [ ] Gender
+        - [ ] Age
+        - [ ] Sexual Orientation?
+        - [ ] Introvert / Extrovert?
+        - [ ] Meyers Briggs?
+- [ ] Modify recommended activities based on popular user choices
 
 ## Known Issues
 

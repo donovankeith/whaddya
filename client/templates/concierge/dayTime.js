@@ -24,7 +24,7 @@ function timeOfDay(){
 
     //Mid Morning: 10:01am - 12:00pm
     else if (hours < 12)
-        return "Mid Morning"
+        return "Late Morning"
 
     //Afternoon: 12:01pm - 5pm
     else if (hours < 17)

@@ -43,7 +43,7 @@ function timeOfDay(){
         return "Late Night"
 }
 
-Template.dayTime.helpers(
+Template.body.helpers(
     {
         dayOfWeek: dayOfWeek(),
         timeOfDay: timeOfDay()

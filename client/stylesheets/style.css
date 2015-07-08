@@ -40,12 +40,12 @@ Source: https://color.adobe.com/Flat-design-colors-1-color-theme-3044245/
 }
 
 body {
-    background-color: #ababab;/*default*/
-    transition: background-color 5s ease; /* future-proof */
-    -webkit-transition: background-color 5s ease;
-    -moz-transition: background-color 5s ease;
-    -o-transition: background-color 5s ease;
-    -ms-transition: background-color 5s ease;/* IE10+ only */
+    /*background-color: #ababab;/!*default*!/*/
+    /*transition: background-color 5s ease; /!* future-proof *!/*/
+    /*-webkit-transition: background-color 5s ease;*/
+    /*-moz-transition: background-color 5s ease;*/
+    /*-o-transition: background-color 5s ease;*/
+    /*-ms-transition: background-color 5s ease;/!* IE10+ only *!/*/
 }
 
 li {
@@ -62,4 +62,12 @@ li {
 
 .spinner-container{
     position: relative;
+}
+
+.hours-table{
+    width: auto;
+}
+
+.hours-checked{
+
 }

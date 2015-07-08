@@ -13,9 +13,38 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="control-label" for="icon">Icon<Name></Name></label>
+            <label class="control-label" for="icon">Icon</label>
             <div class="controls">
                 <input name="icon" id="icon" type="text" value="" placeholder="IconName.png" class="form-control"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="icon">Time of Day</label>
+            <div class="controls">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Early Morning</th>
+                            <th>Morning</th>
+                            <th>Late Morning</th>
+                            <th>Afternoon</th>
+                            <th>Evening</th>
+                            <th>Night</th>
+                            <th>Late Night</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="text-center">
+                            <td class="danger"><input type="checkbox" value="earlyMorning"></td>
+                            <td class="success"><input type="checkbox" value="morning" checked></td>
+                            <td class="success"><input type="checkbox" value="lateMorning" checked></td>
+                            <td class="success"><input type="checkbox" value="afternoon" checked></td>
+                            <td class="success"><input type="checkbox" value="evening" checked></td>
+                            <td class="success"><input type="checkbox" value="night" checked></td>
+                            <td class="danger"><input type="checkbox" value="lateNight"></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
         <input type="submit" value="Submit" class="btn btn-primary"/>

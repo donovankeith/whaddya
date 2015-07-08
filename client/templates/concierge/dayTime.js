@@ -30,11 +30,11 @@ function timeOfDay(){
     else if (hours < 17)
         return "Afternoon"
 
-    //Evening: 5:01pm - 9pm
-    else if (hours < 21)
+    //Evening: 5:01pm - 8pm
+    else if (hours < 20)
         return "Evening"
 
-    //Night: 9:01pm - 11pm
+    //Night: 8:01pm - 11pm
     else if (hours < 23)
         return "Night"
 

@@ -17,16 +17,18 @@ I dunno, whaddya wanna do?
 - Add `Activities` to a giant list of things you can do.
 - Check off completed activities.
 - Show only those activities you actually want to do.
+- Submission Form
+- Edit Form
+- Report a Bug Button
+- Report an Idea Button
+- Simple loading spinner
+
 
 ## Ideas
 
-- [X] Submission Form
-- [X] Edit Form
 - !!![ ] Time-based filtering @Donovan
+- [ ] Day-based filtering @Donovan
 - [/] Add a Contact Button
-- [X] Add a Report a Bug Button
-- [X] Add a Report an Idea Button
-- [X] Add simple loading spinner
 - [ ] Add About Page
 - [ ] Improved styling
     - [ ] Solid color tiles

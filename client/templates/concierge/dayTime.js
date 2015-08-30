@@ -1,6 +1,5 @@
 function dayOfWeek(){
     // Return day of week. e.g. Monday
-
     var today = new Date();
     var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
     var day = days[ today.getDay() ];
@@ -43,7 +42,7 @@ function timeOfDay(){
         return "Late Night"
 }
 
-Template.body.helpers(
+Template.dayTime.helpers(
     {
         dayOfWeek: dayOfWeek(),
         timeOfDay: timeOfDay()

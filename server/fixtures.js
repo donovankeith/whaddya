@@ -5,12 +5,12 @@ if (Activities.find().count() === 0){
         icon: 'noun_theater_501.png',
         timesOfDay: {
             earlyMorning: false,
-            morning: true,
-            lateMorning: true,
-            afternoon: true,
+            morning: false,
+            lateMorning: false,
+            afternoon: false,
             evening: true,
             night: true,
-            lateNight: true,
+            lateNight: true
         }
     });
 
@@ -20,12 +20,12 @@ if (Activities.find().count() === 0){
         icon: 'noun_television_15555.png',
         timesOfDay: {
             earlyMorning: false,
-            morning: true,
-            lateMorning: true,
-            afternoon: true,
+            morning: false,
+            lateMorning: false,
+            afternoon: false,
             evening: true,
             night: true,
-            lateNight: true,
+            lateNight: false,
         }
     });
 
@@ -40,7 +40,7 @@ if (Activities.find().count() === 0){
             afternoon: true,
             evening: true,
             night: true,
-            lateNight: true,
+            lateNight: false,
         }
     });
 
@@ -49,13 +49,13 @@ if (Activities.find().count() === 0){
         url: 'https://www.google.com/webhp?hl=en#hl=en&q=hiking+trails+near+me&rflfq=1&tbm=lcl',
         icon: 'noun_boot_35776.png',
         timesOfDay: {
-            earlyMorning: false,
+            earlyMorning: true,
             morning: true,
             lateMorning: true,
-            afternoon: true,
+            afternoon: false,
             evening: true,
-            night: true,
-            lateNight: true,
+            night: false,
+            lateNight: false,
         }
     });
 
@@ -64,13 +64,13 @@ if (Activities.find().count() === 0){
         url: 'http://www.traillink.com/trailsearch.aspx?zipcode=90027',
         icon: 'noun_bike_143283.png',
         timesOfDay: {
-            earlyMorning: false,
+            earlyMorning: true,
             morning: true,
-            lateMorning: true,
-            afternoon: true,
+            lateMorning: false,
+            afternoon: false,
             evening: true,
-            night: true,
-            lateNight: true,
+            night: false,
+            lateNight: false,
         }
     });
 
@@ -81,11 +81,11 @@ if (Activities.find().count() === 0){
         timesOfDay: {
             earlyMorning: false,
             morning: true,
-            lateMorning: true,
-            afternoon: true,
+            lateMorning: false,
+            afternoon: false,
             evening: true,
-            night: true,
-            lateNight: true,
+            night: false,
+            lateNight: false,
         }
     });
 
@@ -95,12 +95,12 @@ if (Activities.find().count() === 0){
         icon: 'noun_bar_21.png',
         timesOfDay: {
             earlyMorning: false,
-            morning: true,
-            lateMorning: true,
-            afternoon: true,
+            morning: false,
+            lateMorning: false,
+            afternoon: false,
             evening: true,
             night: true,
-            lateNight: true,
+            lateNight: false,
         }
     });
 
@@ -110,12 +110,12 @@ if (Activities.find().count() === 0){
         icon: 'noun_cocktail-calendar_62322.png',
         timesOfDay: {
             earlyMorning: false,
-            morning: true,
-            lateMorning: true,
-            afternoon: true,
-            evening: true,
+            morning: false,
+            lateMorning: false,
+            afternoon: false,
+            evening: false,
             night: true,
-            lateNight: true,
+            lateNight: true
         }
     });
 
@@ -126,11 +126,11 @@ if (Activities.find().count() === 0){
         timesOfDay: {
             earlyMorning: false,
             morning: true,
-            lateMorning: true,
+            lateMorning: false,
             afternoon: true,
             evening: true,
-            night: true,
-            lateNight: true,
+            night: false,
+            lateNight: false,
         }
     });
 
@@ -142,10 +142,10 @@ if (Activities.find().count() === 0){
             earlyMorning: false,
             morning: true,
             lateMorning: true,
-            afternoon: true,
+            afternoon: false,
             evening: true,
-            night: true,
-            lateNight: true,
+            night: false,
+            lateNight: false,
         }
     });
 
@@ -154,13 +154,13 @@ if (Activities.find().count() === 0){
         url: 'https://www.youtube.com/watch?v=zwSRF3QkG7Q',
         icon: 'noun_dumbbell_22292.png',
         timesOfDay: {
-            earlyMorning: false,
+            earlyMorning: true,
             morning: true,
-            lateMorning: true,
-            afternoon: true,
+            lateMorning: false,
+            afternoon: false,
             evening: true,
             night: true,
-            lateNight: true,
+            lateNight: false,
         }
     });
 
@@ -169,13 +169,13 @@ if (Activities.find().count() === 0){
         url: 'http://www.WhaddyaWana.com',
         icon: 'noun_programming_143945.png',
         timesOfDay: {
-            earlyMorning: false,
+            earlyMorning: true,
             morning: true,
             lateMorning: true,
             afternoon: true,
             evening: true,
             night: true,
-            lateNight: true,
+            lateNight: true
         }
     });
 
@@ -190,7 +190,7 @@ if (Activities.find().count() === 0){
             afternoon: true,
             evening: true,
             night: true,
-            lateNight: true,
+            lateNight: true
         }
     });
 
@@ -205,7 +205,7 @@ if (Activities.find().count() === 0){
             afternoon: true,
             evening: true,
             night: true,
-            lateNight: true,
+            lateNight: true
         }
     });
 
@@ -220,7 +220,7 @@ if (Activities.find().count() === 0){
             afternoon: true,
             evening: true,
             night: true,
-            lateNight: true,
+            lateNight: true
         }
     });
 
@@ -235,7 +235,7 @@ if (Activities.find().count() === 0){
             afternoon: true,
             evening: true,
             night: true,
-            lateNight: true,
+            lateNight: true
         }
     });
 
@@ -250,7 +250,7 @@ if (Activities.find().count() === 0){
             afternoon: true,
             evening: true,
             night: true,
-            lateNight: true,
+            lateNight: true
         }
     });
 
@@ -265,7 +265,7 @@ if (Activities.find().count() === 0){
             afternoon: true,
             evening: true,
             night: true,
-            lateNight: true,
+            lateNight: true
         }
     });
 }
